@@ -1,0 +1,47 @@
+Task 06 page 25:
+
+1-6:
+
+dir %windows% /A:S /O:S > tem1.txt
+
+2-7:
+
+dir %windows% /A:H /O:D /S > team2.txt
+
+3-8:
+
+dir %windows% /A:R /AD /O:N > team3.txt
+
+4-9 
+
+dir %windows% \*.bmp /S /A:R /O:S . team4.txt
+
+5-10
+
+dir %windows% \*.jpg /S /O:N
+
+
+
+
+Task 07 page26:
+
+mkdir c:WinGraphica 
+xcopy /S /H C:\*.bmp c:\WinGraphica 
+
+xcopy /S /H C:\*.jpg c:\WinGraphica
+
+xcopy /S /H C:\*.jpeg c:\WinGraphica
+
+xcopy /S /H C:\*.png c:\WinGraphica  
+
+xcopy /S /H C:\*.gif c:\WinGraphica
+
+xcopy /S /H C:\*.heic c:\WinGraphica   
+
+
+
+
+Task 08 page26:
+
+mkdir c:WinEx
+xcopy /s /h C: \*.exe c:WinEx
